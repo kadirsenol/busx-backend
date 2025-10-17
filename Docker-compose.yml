@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  busx:
+    container_name: busx-api
+    build:
+      context: .
+      dockerfile: BusX.GEN.API/Dockerfile
+    ports:
+      - "5035:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - DOTNET_RUNNING_IN_CONTAINER=true

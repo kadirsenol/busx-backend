@@ -1,0 +1,40 @@
+# Visual Studio cache ve ayar dosyaları
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build çıktıları
+bin/
+obj/
+Debug/
+Release/
+
+# JetBrains IDE
+.idea/
+
+# Paketler
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+
+# Node
+node_modules/
+
+# Log dosyaları
+*.log
+
+# Test Results
+TestResults/
+*.trx
+
+# Mac OS
+.DS_Store
+
+# ASP.NET development config (opsiyonel)
+# appsettings.Development.json
+
+# SQLite dosyaları - commit edilecek
+!busx.sqlite
