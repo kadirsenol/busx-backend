@@ -27,3 +27,5 @@
 2. ...\busx-backend
 3. docker-compose up --build -d
 4. İlgili image oluşturulup container ile başlatılacaktır.
+
+## Sqlite gömülü şekilde pushlandığı için gerek debug modda gerek docker ile çalıştırırken herhangi bir ayar yapılmasına gerek kalmaksızın db bağlantısı aktif çalışacaktır
